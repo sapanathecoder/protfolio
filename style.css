@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+.top-nav {
+  min-height: 80vh;
+  background: rgba(120, 228, 219, 0.692);
+  background: url(./assests/w-qjCHPZbeXCQ-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+}
+/*background:url(./assets/)no-repeat center center;
+background-size:cover;*/
+
+a.nav-link {
+  font-weight: bold;
+  color: pink !important;
+  letter-spacing: 0.1em;
+}
+a.nav-link:hover {
+  color: blue !important;
+}
+
+.sec-tittle {
+  border-bottom: purple solid 5px;
+  width: 200px;
+}
+.sec-content i {
+  font-size: 5rem;
+}
+.projects {
+  background: rgba(224, 179, 224, 0.795);
+}
+.contact-icons {
+  background-color: aqua;
+  min-height: 30vh;
+  border-radius: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  position: relative;
+}
+.up {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+  font-style: 2rem;
+  border: black solid 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
